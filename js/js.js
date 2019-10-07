@@ -2,62 +2,68 @@
 var name = prompt(' what is your name?');
 alert('welcom  ' + name + '  welcome to my bage ');
 console.log('name', name);
-var food = prompt('do you eat the Dinner?');
-food = food.toLowerCase();
-if (food === 'yes') {
-    alert('This is harmful to health');
-} else if (food === 'y') {
-    alert('This is harmful to health');
+
+
+var love = prompt('Is the last name of \"Shaimaa\" is \"jfoot\"?');
+love = love.toLowerCase();
+if (love === 'yes') {
+    alert('Great answer');
+} else if (love === 'y') {
+    alert('Great answer');
 } else {
-    alert('good for you.');
+    alert('Oooh, wrong annswer.');
 }
-console.log('food', food);
+console.log('love', love);
 
 
-var pizza = prompt('do you eat pizza?');
-pizza =  pizza.toLowerCase();
-if (pizza === 'yes') {
-    alert('This is harmful to health');
-} else if (pizza === 'y') {
-    alert('This is harmful to health');
+var love = prompt('Is shaimaa age 25 years??');
+love = love.toLowerCase();
+if (love === 'yes') {
+    alert('Great one, keep going');
+} else if (love === 'y') {
+    alert('Great one, keep going');
 } else {
-    alert('good for you.');
+    alert('Wrong answer, please enter \"yes\" OR \"no\"');
 }
-console.log('pizza', pizza);
+console.log('love', love);
 
-var Fish = prompt('do you eat Fish?');
-Fish = Fish.toLowerCase();
-if (Fish === 'yes') {
-    alert('great,keep going');
-} else if (Fish === 'y') {
-    alert('great,keep going');
+var love = prompt('do Shaimaa love swimming ??');
+love = love.toLowerCase();
+if (love === 'yes') {
+    alert('Of course i do');
+} else if (love === 'y') {
+    alert('Of course i do');
 } else {
-    alert('Please avoid skipping Fish, because it supplies the body in Omega 3 and essential fatty acids.');
+    alert('Sorry about that, wrong answer');
 }
-console.log('Fish', Fish);
+console.log('love', love);
 
-
-
-var smoking = prompt('do you smoke?');
-smoking = smoking.toLowerCase();
-if (smoking === 'yes') {
-    alert('no this is bad for your health, would you try to quit');
-} else if (smoking === 'y') {
-    alert('no this is bad for your health, would you try to quit');
+var love = prompt('Has shaimaa studied at the ttu? ');
+love = love.toLowerCase();
+if (love === 'yes') {
+    alert('Wow, Great answer');
+} else if (love === 'y') {
+    alert('Wow, Great answer');
 } else {
-    alert('good for you.');
+    alert('thats rong');
 }
-console.log('smoking', smoking);
+console.log('love', love);
 
-var breakfast = prompt('do you eat brakfast?');
-breakfast = breakfast.toLowerCase();
-if (breakfast === 'yes') {
-    alert('great,keep going');
-} else if (breakfast === 'y') {
-    alert('great,keep going');
+
+
+var love = prompt('do you think shaimaa loves football?? ');
+love = love.toLowerCase();
+if (love === 'yes') {
+    alert('Oooh, wrong annswer, sorry about that');
+} else if (love === 'y') {
+    alert('Oooh, wrong annswer, sorry about that');
 } else {
-    alert('please avoid skipping breakfast ,lest your blood sugar drop.');
+    alert('of course i dont');
 }
-console.log('breakfast', breakfast);
+console.log('love', love);
+
+
+
+
 
 alert('good bye   ' + name );
