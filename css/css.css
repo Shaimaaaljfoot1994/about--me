@@ -1,0 +1,16 @@
+body{ background-color: rgb(24, 92, 18);}
+h1 {border-style: outset;
+    border-radius: 40px;
+    border-block-width: 50px; 
+    border-width: medium;
+    border-color:#be7e34;
+     color:rgb(35, 7, 82);
+text-align: center;}
+
+p {font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    text-shadow: 2px 1px rgb(53, 9, 248);
+    color:rgb(197, 228, 23);
+text-align: center;}
+footer{color: rgb(243, 22, 22);
+text-align-last: center}
