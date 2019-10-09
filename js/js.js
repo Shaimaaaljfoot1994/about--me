@@ -1,7 +1,11 @@
 'use strict';
-// var name = prompt(' what is your name?');
-// alert('welcom  ' + name + '  welcome to my bage ');
-// console.log('name', name);
+var name = prompt(' what is your name?');
+while ( !isNaN(name)){
+name =prompt('please ,write your name first!\n\nAnd you allow to enter only text .')
+}
+
+alert('welcom  ' + name + '  welcome to my bage ');
+console.log('name', name);
 
 var shaimaa = [
     ['Is the last name of \"Shaimaa\" is \"jfoot\"?',
@@ -26,56 +30,49 @@ var shaimaa = [
     ]
 ]
 
-for (var i = 0; i < shaimaa.length; i++) {
-    var shaimaa2 = shaimaa[i];
-    var userreply = prompt(shaimaa2[0]);
-    userreply = userreply.toLowerCase();
-    var yesreply = shaimaa2[1];
-    var noreply = shaimaa2[2];
-    switch (userreply) {
-        case 'yes':
-        case 'y':
-            alert(yesreply);
-            break;
-        case 'no':
-        case 'n':
-            alert(noreply);
-            break;
-        default:
-            alert('wrong answer');
+
+
+getQuestion();
+
+function getQuestion(){
+    for (var i = 0; i < shaimaa.length; i++) {
+        var shaimaa2 = shaimaa[i];
+        var userreply = prompt(shaimaa2[0]);
+        userreply = userreply.toLowerCase();
+        var yesreply = shaimaa2[1];
+        var noreply = shaimaa2[2];
+        switch (userreply) {
+            case 'yes':
+            case 'y':
+                alert(yesreply);
+                break;
+            case 'no':
+            case 'n':
+                alert(noreply);
+                break;
+            default:
+                alert('wrong answer');
+        }
     }
 }
 
-var score = 0;
-var age = prompt('do you know how old iam? ');
-var num1 = parseInt(age);
+var score = 0, age, num1;
 
-switch (num1) {
-    case 25:
+for (var j = 0; j <= 4; j++) {
+    age = prompt('do you know how old iam? ');
+    num1 = parseInt(age);
+    if(num1 == 25){
         alert('correct answer  iam ' + num1 + ' years old ');
         score++;
+        j=5;
         break;
-    default:
-        for (var j = 0; j <= 4; j++) {
-            if (num1 < 18) {
-                alert('your answer is too low.');
-                var age = prompt('please reanswer the question? ');
-                var num1 = parseInt(age);
-            } else if (num1 > 30) {
-                alert('your answer is too high');
-                var age = prompt('please reanswer the question? ');
-                var num1 = parseInt(age);
-
-            } else if (num1 === 25) {
-                alert('correct answer  iam ' + num1 + ' years old ');
-                score++;
-            }
-            else {
-                alert('wrong answer')
-                var age = prompt('please reanswer the question? ');
-                var num1 = parseInt(age);
-            }
-        }
+    }else if (num1 < 18) {
+        alert('your answer is too low.');
+    }else if (num1 > 30) {
+        alert('your answer is too high');
+    }else if(isNaN(num1)){
+        alert('please, you allow to enter only number');
+    }
 }
 
 
