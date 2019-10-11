@@ -1,16 +1,24 @@
-body{ background-color: rgb(24, 92, 18);}
+body{ background-color: rgb(206, 170, 28);
+}
 h1 {border-style: outset;
     border-radius: 40px;
-    border-block-width: 50px; 
+    border-block-width: 20px; 
     border-width: medium;
-    border-color:#be7e34;
-     color:rgb(35, 7, 82);
+    border-color:rgb(145, 69, 145);
+     color:rgb(29, 3, 78);
 text-align: center;}
 
 p {font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-style: italic;
-    text-shadow: 2px 1px rgb(53, 9, 248);
-    color:rgb(197, 228, 23);
-text-align: center;}
-footer{color: rgb(243, 22, 22);
+    text-shadow: 2px 1px pink;
+    color:rgb(111, 40, 224);
+}
+footer{color: rgb(16, 214, 92);
 text-align-last: center}
+.topten li { color: deeppink;
+  
+    }
+    .topten p {
+        color: rgb(155, 44, 10)
+    }
+    

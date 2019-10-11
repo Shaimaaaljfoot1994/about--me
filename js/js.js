@@ -1,3 +1,4 @@
+
 /*"use strict";
 var username=prompt("what is your name?");
 console.log ( "username", username )
@@ -141,7 +142,6 @@ age ();
 
 
 
-// ////////////////////////Q7////////////////////////////////////
 
 function color () {
     var lovecolor = ["yallow", "White", "black", "green", "blue", "red"]
@@ -150,13 +150,21 @@ function color () {
         if (user === lovecolor[0] || user == lovecolor[1] || user === lovecolor[2] || user === lovecolor[3] || user === lovecolor[4] || user === lovecolor[5]) {
             alert("correct answer");
             count=count+1
-            break;
+           break;
         } else {
             alert("you have to try a gain");
+            
+
         }
+        
     }
+    
     alert('your correct answer= '+ count);
     
-     return (lovecolor);   
+     return (lovecolor); 
+       
     }
+    
     color();
+
+    
