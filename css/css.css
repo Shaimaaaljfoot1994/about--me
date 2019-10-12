@@ -1,24 +1,43 @@
-body{ background-color: rgb(206, 170, 28);
-}
-h1 {border-style: outset;
-    border-radius: 40px;
-    border-block-width: 20px; 
-    border-width: medium;
-    border-color:rgb(145, 69, 145);
-     color:rgb(29, 3, 78);
-text-align: center;}
 
-p {font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-style: italic;
-    text-shadow: 2px 1px pink;
-    color:rgb(111, 40, 224);
+body{ background-color: cornsilk;
 }
-footer{color: rgb(16, 214, 92);
+ span {font-size: 50px;
+     border-style: outset;
+    border-radius: 40px; 
+    border-width: 10px;
+    border-color:rgb(236, 118, 187);
+     color:rgb(250, 161, 176);
+     margin-left: 520px;
+    padding:0px 10px 10px 10px;}
+
+p {font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    text-shadow: 2px 1px rgb(197, 13, 126);
+    color:rgb(46, 21, 29);
+    text-align: center;
+    padding: .5px;
+}
+footer{color: rgb(120, 168, 29);
 text-align-last: center}
-.topten li { color: deeppink;
-  
+section { color: rgb(59, 42, 49);
+   
+    border: 20px;
+    border-color: rgb(17, 77, 241);
+    
+    
     }
     .topten p {
-        color: rgb(155, 44, 10)
+        color: rgb(245, 8, 213);
+        text-align: center;
     }
-    
+   ul li ul li {
+        border-style: solid;
+        border-width: 1px;
+        padding: 10px;
+    background-color: rgb(219, 112, 18);
+        }
+        ul li {padding: 10px;
+        margin-bottom: 10px;}
+  
+            
+     .first { padding-top: 50px;}
